@@ -13,7 +13,7 @@ Projeto de uma Fonte de Tensão Variável de 3V a 12V, desenvolvido para a disci
 ![Schematic](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Schematic.png)
 
 ## Conversor Corrente Alternada de Alta Tensão para Corrente Alternada de Baixa Tensão
-Ao usar um transformador de 127V AC para 24V AC, com a razão descrita abaixo, a tensão do circuito, fica adequada aos componentes usados na fonte, que são mais sensíveis a valores altos de tensão e suas variações. Quando há variação de fluxo na corrente primária (127V), na parte secundária, é gerada uma corrente induzida com um potencial elétrico menor (24V). O intervalo de oscilação sai de 127V a -127V para 24V a -24V.
+Ao usar um transformador de 127V AC para 24V AC, com a razão descrita abaixo, a tensão do circuito, fica adequada aos componentes usados na fonte, que são mais sensíveis a valores altos de tensão e suas variações. Quando há variação de fluxo na corrente primária (127V), na parte secundária, é gerada uma corrente induzida com um potencial elétrico menor (24V). O intervalo de oscilação sai de 127V a -127V para 24V a -24V. A razão obtida na fórmula abaixo, auxiliou a resolução da problemática no Falstad, para conseguir ajustar a tensão secundária do transformador.
 
 ![Transformador](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Transformador.gif)
 
