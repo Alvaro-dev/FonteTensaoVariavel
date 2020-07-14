@@ -54,7 +54,7 @@ Tabela com os preços dos componentes
 | Potenciômetro 5k   | Potenciômetro Linear de 5K (5000Ω) | <a href = "https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html">R$ 1,45</a> |
 | Ponte Retificadora KBPC1010* | Ponte Retificadora de 10A | <a href = "https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html"> R$ 3,79  </a> |
 | Transistor   | Transistor NPN 2N3904 | <a href = "https://www.baudaeletronica.com.br/transistor-npn-2n3904.html">R$ 0,17</a> |
-| Total   |  | R$ 26,18 |
+| Total   |  | R$ 28,87 |
 
 * Poderíamos ter usado componentes mais baratos, mas devido ao fato do software Eagle/Loja não possuirem os modelos modelos mais adequados, escolhemos esse.
 
