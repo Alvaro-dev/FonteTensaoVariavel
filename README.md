@@ -17,13 +17,12 @@ Ao usar um transformador de 127V AC para 24V AC, com a razão descrita abaixo, a
 ![Transformador](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Transformador.gif)
 
 ## Conversor Corrente Alternada para Corrente Contínua
-Como estamos lidando com uma corrente alternada (24V a -24V), é necessário uma estratégia para converter desse tipo de corrente elétrica para contínua, para o funcionamento adequado da fonte. Assim, usa-se uma ponte retificadora feita com diodos, cuja função é tornar a corrente unidirecional devido a propriedade do diodo, que permite o fluxo de corrente em apenas um sentido determinado. Como a corrente nominal é, no máximo, de 1.5 A, usamos um diodo que resiste a uma corrente de até 3 A.
-Por motivos de compatibilidade, avaliando a proporcionalidade do diodo/PCB, escolhemos o Diodo 1N5406 pois ele é compatível com o Eagle, e para ter maior acurácia no trabalho, escolhemos o mais conveniente para a situação dada. Assim, a tensão na saída da ponte retificadora será uma unidirecional, porém instável para se usar dessa maneira.
+Como estamos lidando com uma corrente alternada (24V a -24V), é necessário uma estratégia para converter desse tipo de corrente elétrica para contínua, para o funcionamento adequado da fonte. Assim, usa-se uma ponte retificadora feita com diodos, cuja função é tornar a corrente unidirecional devido a propriedade do diodo, que permite o fluxo de corrente em apenas um sentido determinado. Como a corrente nominal é, no máximo, de 1.3 A, usamos um diodo que resiste a uma corrente de até 3 A.
+Por motivos de compatibilidade, avaliando a proporcionalidade do diodo/PCB, escolhemos a ponte retificadora KBPC1010 pois ela é compatível com o Eagle, e para ter maior acurácia no trabalho, escolhemos o mais conveniente para a situação dada. Assim, a tensão na saída da ponte retificadora será uma unidirecional, porém instável para se usar dessa maneira na saída.
 
 ## Filtragem de Corrente
-A saída da ponte retificadora é instável, possuindo pequenas oscilações em sua voltagem, dessa forma forma será usado um capacitor ![C1](https://github.com/Alvaro-dev/FonteTensao12V/blob/master/Formulas/C1.gif), conectado em paralelo com o output, para filtragem do sinal.
-
-O capacitor ao carregar e descarregar durante seu ciclo fornece um aumento linear da voltagem, filtrando o sinal e disponibilizando uma tensão mais estável. Dessa forma, escolhemos um capacitor de 470uF, valor mínimo para manter uma corrente sem muitas oscilações.
+A saída da ponte retificadora é instável, possuindo pequenas oscilações em sua voltagem, dessa forma forma será usado um capacitor conectado em paralelo com o output, diminuir essas oscilações para a próxima parte do circuito. O objetivo de colcoar um capacitor, se baseia no fato do circuito precisar de tensão/corrente durante a parte na qual os valores de tais atributos estão baixos, necessitando que o capacitor se descarregue para manter uma margem confortável para o funcionamento geral do circuito.
+O capacitor ao carregar e descarregar durante seu ciclo fornece um aumento linear da voltagem, filtrando o sinal e disponibilizando uma tensão mais estável. Dessa forma, escolhemos um capacitor de 470uF, valor ideal para manter uma corrente sem muitas oscilações.
 (Inserir cálculo).
 
 ## LED (Light Emitting Diode)
