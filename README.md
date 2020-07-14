@@ -29,6 +29,13 @@ O capacitor ao carregar e descarregar durante seu ciclo fornece um aumento linea
 ## LED (Light Emitting Diode)
 
 ## Regulador de Tensão
+O Diodo Zener associado ao potenciômetro, conjuntamente com o Transistor NPN, permite que a tensão e corrente seja regulada e programada a partir de sua resistência variável.
+-Diodo Zener: Ao ser conectado em paralelo, será responsável pela regulação da tensão máxima que será fornecida à base do Transistor NPN. Esse componente atua filtrando a tensão somente quando for fornecido a ele uma tensão suficientemente maior do que a sua tensão nominal, 13V no caso deste projeto. Dessa forma, quando o Diodo Zener estiver ativo parte da corrente do circuito será absorvida e uma tensão 13V estável será fornecida ao Transistor. O Resistor ![R2value] conectado será responsável por limitar a corrente que flui em direção ao Zener, tornando seguro o uso do modelo escolhido. Nota-se pelo simulador que há um pico de corrente de, aproximadamente, -1.5mA e que o Diodo está submetido a uma tensão de -13V, dissipando no máximo 19.5mW. Dessa forma, o componente escolhido (com especificações para 500mW) será suficiente.
+-Potenciômetro: Resistor variável que permitirá regular a tensão elétrica de saída. Em conjunto com restante do circuito, o Potenciômetro foi devidamente projetado para fornecer uma tensão final no intervalo entre 3V e 12V, atendendo as especificações do projeto. Quando ajustado para uma resistência mínima, a tensão de saída será aproximadamente 12V. Analogamente, quando for regulado em sua resistência máxima a tensão fornecida será próxima de 3V. O Resistor ![R4] será responsável por regular a tensão, adequando-a 3V, fornecida ao transistor quando o potenciômetro estiver com resistência máxima.
+-Transistor NPN: Quando sobre ele é aplicada uma voltagem em sua base atua em seu estado condutivo. Tem como papel, nesse circuito, amplificar a corrente, fornecendo ao circuito uma corrente, passando pelo coletor, na ordem de 100 vezes maior do que a corrente base. Para atender ao requisitos do projeto (Fonte de Tensão de no máximo 100mA) foi escolhido um resistor de ![R120] para que a corrente final do circuito, quando regulado para 12V, permaneça nesse valor. Nota-se então que a corrente de base, e a corrente final possuirão os seguintes valores nos extremos:
+--![Vout12]
+--![Vout3]  
+Vale notar que há no Transistor uma queda de tensão de aproximadamente 715 mV quando a tensão de base for 13V e de 678 mV quando a tensão da base for, aproximadamente, 4.6V. É preciso considerar essa queda de tensão uma vez que a tensão final do circuito será o resultado da tensão de base subtraída da queda de tensão no Transistor.
 
 
 # Orçamento dos materiais usados
