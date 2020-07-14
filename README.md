@@ -35,6 +35,7 @@ O Diodo Zener associado ao potenciômetro, conjuntamente com o Transistor NPN, p
 - Transistor NPN: Quando sobre ele é aplicada uma voltagem em sua base atua em seu estado condutivo. Tem como papel, nesse circuito, amplificar a corrente, fornecendo ao circuito uma corrente, passando pelo coletor, na ordem de 100 vezes maior do que a corrente base. Para atender ao requisitos do projeto (Fonte de Tensão de no máximo 100mA) foi escolhido um resistor de ![R120] para que a corrente final do circuito, quando regulado para 12V, permaneça nesse valor. Nota-se então que a corrente de base, e a corrente final possuirão os seguintes valores nos extremos:
   - ![Vout12]
   - ![Vout3]  
+  
 Vale notar que há no Transistor uma queda de tensão de aproximadamente 715 mV quando a tensão de base for 13V e de 678 mV quando a tensão da base for, aproximadamente, 4.6V. É preciso considerar essa queda de tensão uma vez que a tensão final do circuito será o resultado da tensão de base subtraída da queda de tensão no Transistor.
 
 
