@@ -7,7 +7,7 @@ Projeto de uma Fonte de Tensão Variável de 3V a 12V, desenvolvido para a disci
 
 ![PCB](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/PCB.png)
 
-<a href = "https://drive.google.com/file/d/1gzrX5Xs-pL27jggY8ZcAat801Hr3pDeq/view?usp=sharing"> Vídeo Explicativo</a>
+<a href = "https://drive.google.com/file/d/1tgSCFVqVofuXs6VpP3hKhitnwWkWix8T/view?usp=sharing"> Vídeo Explicativo</a>
 
 # Esquemático EAGLE
 ![Schematic](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Schematic.png)
