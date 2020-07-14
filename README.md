@@ -43,7 +43,7 @@ Tabela com os preços dos componentes
 | Diodo Zener   | Diodo Zener BZX55C [13V / 0.5W] | <a href = "https://www.baudaeletronica.com.br/diodo-zener-bzx55c-13v-0-5w.html">R$ 0,09</a> |
 | Capacitor   | Capacitor Eletrolítico 470uF / 35V | <a href = "https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-35v.html">R$ 0,57</a> |
 | Potenciômetro 5k   | Capacitor Eletrolítico 470uF / 25V | <a href = "https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html">R$ 1,15</a> |
-| Ponte Retificadora KBPC1010* | Ponte Retificadora de 10A | <a href = "https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html">4 x R$ 0,40 = 1,60  </a> |
+| Ponte Retificadora KBPC1010* | Ponte Retificadora de 10A | <a href = "https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html"> R$ 3,79  </a> |
 | Transistor   | Transistor NPN 2N3904 | <a href = "https://www.baudaeletronica.com.br/transistor-npn-2n3904.html">R$ 0,17</a> |
 | Total   |  | R$ 26,18 |
 
