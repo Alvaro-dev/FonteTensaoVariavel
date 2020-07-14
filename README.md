@@ -2,6 +2,7 @@
 Projeto de uma Fonte de Tensão Variável de 3V a 12V, desenvolvido para a disciplina de Eletrônica para Computação, ministrada pelo Professor Dr. Eduardo do Valle Simões
 # Circuito Falstad
 <a href = "http://tinyurl.com/ya99s22k"> Circuito Falstad</a>
+![Falstad](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/FonteFalstad.png)
 # Circuito EAGLE
 
 ![PCB](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/PCB.png)
@@ -24,7 +25,7 @@ Por motivos de compatibilidade, avaliando a proporcionalidade do diodo/PCB, esco
 A saída da ponte retificadora é instável, possuindo pequenas oscilações em sua voltagem, dessa forma forma será usado um capacitor conectado em paralelo com o output, diminuir essas oscilações para a próxima parte do circuito. O objetivo de colcoar um capacitor, se baseia no fato do circuito precisar de tensão/corrente durante a parte na qual os valores de tais atributos estão baixos, necessitando que o capacitor se descarregue para manter uma margem confortável para o funcionamento geral do circuito.
 O capacitor ao carregar e descarregar durante seu ciclo fornece um aumento linear da voltagem, filtrando o sinal e disponibilizando uma tensão mais estável. Dessa forma, escolhemos um capacitor de 470uF, valor ideal para manter uma corrente sem muitas oscilações.
 
-![PCB](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Capacitor.gif)
+![Capacitor](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Capacitor.gif)
 
 ## LED (Light Emitting Diode)
 
