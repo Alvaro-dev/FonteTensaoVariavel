@@ -23,7 +23,8 @@ Por motivos de compatibilidade, avaliando a proporcionalidade do diodo/PCB, esco
 ## Filtragem de Corrente
 A saída da ponte retificadora é instável, possuindo pequenas oscilações em sua voltagem, dessa forma forma será usado um capacitor conectado em paralelo com o output, diminuir essas oscilações para a próxima parte do circuito. O objetivo de colcoar um capacitor, se baseia no fato do circuito precisar de tensão/corrente durante a parte na qual os valores de tais atributos estão baixos, necessitando que o capacitor se descarregue para manter uma margem confortável para o funcionamento geral do circuito.
 O capacitor ao carregar e descarregar durante seu ciclo fornece um aumento linear da voltagem, filtrando o sinal e disponibilizando uma tensão mais estável. Dessa forma, escolhemos um capacitor de 470uF, valor ideal para manter uma corrente sem muitas oscilações.
-(Inserir cálculo).
+
+![PCB](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Capacitor.gif)
 
 ## LED (Light Emitting Diode)
 
