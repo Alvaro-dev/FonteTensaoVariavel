@@ -27,8 +27,6 @@ O capacitor ao carregar e descarregar durante seu ciclo fornece um aumento linea
 
 ![Capacitor](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Capacitor.gif)
 
-## LED (Light Emitting Diode)
-
 ## Regulador de Tensão
 O Diodo Zener associado ao potenciômetro, conjuntamente com o Transistor NPN, permite que a tensão e corrente seja regulada e programada a partir de sua resistência variável.
 - <b>Diodo Zener:</b> Ao ser conectado em paralelo, será responsável pela regulação da tensão máxima que será fornecida ao Potenciômetro. Esse componente atua filtrando a tensão somente quando for fornecido a ele uma tensão suficientemente maior do que a sua tensão nominal, 13V no caso deste projeto. Dessa forma, quando o Diodo Zener estiver ativo parte da corrente do circuito será absorvida e uma tensão 13V estável será fornecida ao Transistor. O Resistor ![R2value](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Formulas/R2val.gif) conectado será responsável por limitar a corrente que flui em direção ao Zener, tornando seguro o uso do modelo escolhido. Nota-se pelo simulador que há um pico de corrente de, aproximadamente, -1.5mA e que o Diodo está submetido a uma tensão de -13V, dissipando no máximo 19.5mW. Dessa forma, o componente escolhido (com especificações para 500mW) será suficiente.
@@ -40,7 +38,6 @@ O Diodo Zener associado ao potenciômetro, conjuntamente com o Transistor NPN, p
   - ![Vout3](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Formulas/Vout_3.gif)  
 
 Vale notar que há no Transistor uma queda de tensão de aproximadamente 715 mV quando a tensão de base for 13V e de 678 mV quando a tensão da base for, aproximadamente, 4.6V. É preciso considerar essa queda de tensão uma vez que a tensão final do circuito será o resultado da tensão de base subtraída da queda de tensão no Transistor.
-
 
 # Orçamento dos materiais usados
 Tabela com os preços dos componentes
@@ -60,6 +57,9 @@ Tabela com os preços dos componentes
 | Total   |  | R$ 26,18 |
 
 * Poderíamos ter usado componentes mais baratos, mas devido ao fato do software Eagle/Loja não possuirem os modelos modelos mais adequados, escolhemos esse.
+
+# Agradecimentos
+Queremos agradecer ao professor Dr Eduardo Simões pela oportunidade de fazer o trabalho com as retificações necessárias, conforme especificado. Esperamos que, no futuro, poderemos usufruir novamente de alguma disciplina ministrada pelo professor, em um contexto cujo aprendizado não seja à distância.
 
 # Contribuição
 Alvaro José Lopes - 10873365
