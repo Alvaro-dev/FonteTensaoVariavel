@@ -61,6 +61,8 @@ Tabela com os preços dos componentes
 # Agradecimentos
 Queremos agradecer ao professor Dr Eduardo Simões pela oportunidade de fazer o trabalho com as retificações necessárias, conforme especificado. Esperamos que, no futuro, poderemos usufruir novamente de alguma disciplina ministrada pelo professor, em um contexto cujo aprendizado não seja à distância.
 
+Queremos também agradecer aos criadores do website: https://componentsearchengine.com/ por nos disponibilizar as libraries do EAGLE de graça.
+
 # Contribuição
 Alvaro José Lopes - 10873365
 
