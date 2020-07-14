@@ -1,12 +1,10 @@
 # Fonte Tensão 12V
 Projeto de uma Fonte de Tensão Variável de 3V a 12V, desenvolvido para a disciplina de Eletrônica para Computação, ministrada pelo Professor Dr. Eduardo do Valle Simões
 # Circuito Falstad
-
+<a href = "http://tinyurl.com/ybp5we7z"> Circuito Falstad</a>
 # Circuito EAGLE
 
 ![PCB](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/PCB.png)
-
-Link para o circuito no Falstad: http://tinyurl.com/ybp5we7z
 
 <a href = "https://drive.google.com/file/d/1gzrX5Xs-pL27jggY8ZcAat801Hr3pDeq/view?usp=sharing"> Vídeo Explicativo</a>
 
