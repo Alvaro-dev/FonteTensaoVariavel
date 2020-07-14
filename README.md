@@ -13,7 +13,7 @@ Projeto de uma Fonte de Tensão Variável de 3V a 12V, desenvolvido para a disci
 ## Conversor Corrente Alternada de Alta Tensão para Corrente Alternada de Baixa Tensão
 Ao usar um transformador de 127V AC para 24V AC, com a razão descrita abaixo, a tensão do circuito, fica adequada aos componentes usados na fonte, que são mais sensíveis a valores altos de tensão e suas variações. Quando há variação de fluxo na corrente primária (127V), na parte secundária, é gerada uma corrente induzida com um potencial elétrico menor (24V). O intervalo de oscilação sai de 127V a -127V para 24V a -24V.
 
-![Transformador](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Formulas/Transformador.gif)
+![Transformador](https://github.com/Alvaro-dev/FonteTensaoVariavel/blob/master/Transformador.gif)
 
 ## Conversor Corrente Alternada para Corrente Contínua
 Como estamos lidando com uma corrente alternada (24V a -24V), é necessário uma estratégia para converter desse tipo de corrente elétrica para contínua, para o funcionamento adequado da fonte. Assim, usa-se uma ponte retificadora feita com diodos, cuja função é tornar a corrente unidirecional devido a propriedade do diodo, que permite o fluxo de corrente em apenas um sentido determinado. Como a corrente nominal é, no máximo, de 1.5 A, usamos um diodo que resiste a uma corrente de até 3 A.
